@@ -67,6 +67,18 @@ h1 {
     font-size: 100px;
 }
 
+
+.row2 {
+    display: flex;
+    height: 25%;
+    align-items: center;
+
+}
+
+.col2 {
+    flex-basis: 50%;
+}
+
 p {
     color: #fff;
     font-size: 25px;
@@ -94,7 +106,7 @@ button {
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 10px 15px;
+    margin: 8px 4px;
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
@@ -116,6 +128,33 @@ button {
     background-image: url(images/cars.jpg);
 }
 
+.card5{
+    background-image: url(images/city.JPG)
+}
+
+.card6{
+    background-image: url(images/event.JPG)
+}
+
+.card7 {
+    background-image: url(images/dg.JPG)
+}
+
+.card8 {
+    background-image: url(images/political.jpg)
+}
+
+.card9 {
+    background-image: url(images/studio.JPG)
+}
+
+.card10 {
+    background-image: url(images/family.JPG)
+}
+
+
+
+
 .card:hover{
     transform: translateY(-10px)
 }
@@ -129,4 +168,312 @@ h5 {
 .card p {
     text-shadow: 0 0 5px #000;
     font-size: 8px;
+}
+
+
+h6 {
+    color: #fff;
+    font-size: 45px;
+}
+
+.me {
+    width: 650px; /* Adjust to your desired width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: rounds the corners */
+    object-fit: cover; /* Optional: crop to fit dimensions */
+    float: right;
+}
+
+.me1 {
+    flex: 2; /* Takes up more space on the left */
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    max-width: 600px;
+    margin-right: 20px; /* Adds space between paragraph and image */
+    margin-bottom: 20px;
+  }
+  
+
+  .row2 {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+/* 
+.cardd {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 8px 4px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.cardd:hover{
+    transform: translateY(-10px)
+}
+ */
+ 
+ .row3 {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.col3 {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of cards */
+    justify-content: center; /* Centers the cards horizontally */
+    gap: 20px; /* Adds consistent spacing between the cards */
+}
+
+.cardd {
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.cardd:hover {
+    transform: translateY(-10px);
+}
+
+.container2 h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 10px;
+     /* come back to this*/
+}
+
+.container2 p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    /* come back to this*/
+}
+
+.container2 {
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.contact-box {
+    background: #fff;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%; 
+    padding: 40px 60px;
+}
+.contact-right {
+    flex-basis: 40%; 
+    padding: 40px;
+    background: #000000;
+    color: #fff;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px; 
+}
+
+textarea {
+    width: 100%; 
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: #000000;
+}
+
+.container2 button { 
+    background: #000000;
+    width: 100px; 
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.contact-left h3 {
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+.contact-right h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro h1 {
+    font-weight: 750px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.intro p {
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.gradintro {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gradintro h1 {
+    font-weight: 750px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.gradintro p {
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.brandintro {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.brandintro h1 {
+    font-weight: 750px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.brandintro p {
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.carintro {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carintro h1 {
+    font-weight: 750px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.carintro p {
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.cityintro {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cityintro h1 {
+    font-weight: 750px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.cityintro p {
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.photo-section {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the photo and caption */
+    margin: 20px 0;
+}
+
+.photo-box {
+    flex: 1; /* Adjust this for image scaling */
+    max-width: 300px; /* Limit the width of the photo */
+}
+
+.photo {
+    width: 100%; /* Make the image responsive */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for aesthetics */
+}
+
+.caption-box {
+    flex: 2; /* Caption takes up more space than the photo */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.photo-box img {
+    width: 400px;
+    height: auto;
 }
